@@ -1,3 +1,8 @@
 .git
 /bin/
 .metadata
+*/.classpath
+*/.gitignore
+*/.project
+*/.settings
+Servers/

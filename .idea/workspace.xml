@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1d8389c-ece8-430a-a845-5af7f2e9c9b8" name="Changes" comment="" />
+    <list default="true" id="9d3be20f-1c48-46ce-ba25-b72eb02d87f4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Java8/~WRL0003.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java8-downloaded/demo/ForEachDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java8-downloaded/demo/ForEachDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/java8-downloaded" />
   </component>
-  <component name="ProjectId" id="29so2Ns8RcVxZtNbAJZifp1f5BG" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29sqyeYjEcbvmA0pV0xnrbhwuYh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -19,23 +25,24 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/iSVN"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/iSVN&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b1d8389c-ece8-430a-a845-5af7f2e9c9b8" name="Changes" comment="" />
-      <created>1653910960663</created>
+      <changelist id="9d3be20f-1c48-46ce-ba25-b72eb02d87f4" name="Changes" comment="" />
+      <created>1653912396866</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1653910960663</updated>
-      <workItem from="1653910979158" duration="642000" />
+      <updated>1653912396866</updated>
+      <workItem from="1653912398628" duration="1328000" />
+      <workItem from="1654180792250" duration="592000" />
     </task>
     <servers />
   </component>
