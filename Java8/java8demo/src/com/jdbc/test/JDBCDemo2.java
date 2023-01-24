@@ -18,23 +18,18 @@ public class JDBCDemo2 {
 		connection.setAutoCommit(false);
 		statement.execute("INSERT INTO `jdbcdemo`.`user` (`id`, `name`) VALUES (25, '25 User')");
 		statement.execute("INSERT INTO `jdbcdemo`.`user` (`id`, `name`) VALUES (2, 'Second User')");
-		
 		ResultSet rs = statement.executeQuery("select * from user");
-		
 		while(rs.next()) {
 			System.out.println("Id "+rs.getInt("id")+" name "+rs.getString(2));
 		}
-		
 		int id = 22;
-		
 		statement.execute("INSERT INTO `jdbcdemo`.`user` (`id`, `name`) VALUES ("+id+", 'Second User')");
-
 		PreparedStatement stmt=connection.prepareStatement("insert into user values(?,?)");  
 		stmt.setInt(1, 3);
 		stmt.setString(2, "Third user");
 		stmt.execute();
 		statement.close();
-		connection.close();
+//		connection.close();
 		connection.commit();
 		System.out.println("inserted");
 		
