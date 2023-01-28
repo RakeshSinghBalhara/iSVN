@@ -3,6 +3,7 @@ package com.test;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -23,6 +24,16 @@ public class HelloServlet extends HttpServlet {
 		response.getWriter().append("Welcome: " + name + " password " + password).append(request.getContextPath());
 		out.println("<h1>"+name+"</h1>");
 		out.println("<h6>"+name+"</h6>");
+		int sum = 12+900;
+		out.println("<h6> Hi Sandeep from hello servlet</h6>");
+		
+//		response.sendRedirect("WelcomeServlet"); // just like href and support only doGet
+		
+		RequestDispatcher rd = request.getRequestDispatcher("WelcomeServlet");
+		rd.include(request, response);
+//		rd.forward(request, response);
+
+		out.println("<h6> end from hello servlet</h6>");
 	}
 
 }
